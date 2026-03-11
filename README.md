@@ -1,5 +1,7 @@
 ## cf_ai_codebase_explainer
 
+**Live demo:** `https://cf_ai_codebase_explainer.elahres1.workers.dev/`
+
 **An AI-powered Cloudflare Agents app that explains GitHub codebases using Workers AI (LLM-backed).**
 
 Paste a public GitHub repository URL, the app fetches a curated set of files via the GitHub API, summarizes the project with a Workers AI LLM, and lets you chat with an agent that remembers context.

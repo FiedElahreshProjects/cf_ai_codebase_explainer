@@ -1,0 +1,15 @@
+name = "cf_ai_codebase_explainer"
+main = "src/server.ts"
+compatibility_date = "2026-03-11"
+compatibility_flags = [ "nodejs_compat" ]
+
+[[durable_objects.bindings]]
+name = "codebase-explainer"
+class_name = "CodebaseExplainerAgent"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = [ "CodebaseExplainerAgent" ]
+
+[ai]
+binding = "AI"

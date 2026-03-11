@@ -1,0 +1,17 @@
+{
+  "name": "cf_ai_codebase_explainer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An AI-powered application that analyzes GitHub repositories and explains their architecture using Cloudflare Workers AI and Llama 3.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "agents": "^0.7.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "wrangler": "^4.72.0"
+  }
+}
